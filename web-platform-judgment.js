@@ -1,8 +1,4 @@
-/*
-* 浏览器端设备判断
-* android/webos/ios/wp/aliyunos/symbian/blackberry/tizen/bada/wince/kindle fire(HDX7/HDX8.9)
-* 平板仅区分iPAD,其余平台归类为Mobile
-*/
+
 class platform{
   constructor(){
     this.type='pc_win'

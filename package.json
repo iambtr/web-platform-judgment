@@ -2,7 +2,7 @@
   "name": "web-platform-judgment",
   "version": "1.0.0",
   "description": "web页面中不同平台的判断工具",
-  "main": "sureclient.js",
+  "main": "web-platform-judgment.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
