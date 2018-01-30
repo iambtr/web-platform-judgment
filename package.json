@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-   "repository": {
+  "repository": {
     "type": "git",
-    "url": "https://github.com/iambtr/web-platform-judgment.git"
+    "url": "git+https://github.com/iambtr/web-platform-judgment.git"
   },
   "keywords": [
     "platform",
@@ -18,5 +18,12 @@
     "android"
   ],
   "author": "iambtr",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iambtr/web-platform-judgment/issues"
+  },
+  "homepage": "https://github.com/iambtr/web-platform-judgment#readme",
+  "dependencies": {
+    "web-platform-judgment": "^1.0.0"
+  }
 }

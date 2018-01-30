@@ -12,12 +12,20 @@ class platform{
           this.type='mo_apple_wexin'
           return this.type
         }
+		if(/mqqbrowser/i.test(this.useragent)){
+          this.type='mo_apple_qq'
+          return this.type
+        }
         this.type='mo_apple'
         return this.type
       }
       if (/android/i.test(this.useragent)) {
         if(/micromessenger/i.test(this.useragent)){
           this.type='mo_and_wexin'
+          return this.type
+        }
+		if(/mqqbrowser/i.test(this.useragent)){
+          this.type='mo_and_qq'
           return this.type
         }
         this.type='mo_and'
